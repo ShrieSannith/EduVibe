@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/navbar';
+import Welcome from './components/home/welcome';
+import Categories from './components/home/categories';
+import Mentor from './components/home/mentor'
+import Subscribe from './components/home/subscribe';
+import Footer from './components/footer';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFacebook, faTwitter, faDribbble, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+library.add(faFacebook, faTwitter, faDribbble, faLinkedin);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Navbar />
+       <Welcome />
+      {/* <Categories /> */}
+      <Mentor />
+      <Subscribe />
+      <Footer/>
     </div>
   );
 }

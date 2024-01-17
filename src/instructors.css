@@ -1,0 +1,7 @@
+.uploadbutton:hover {
+    background-color: gold !important;
+    border: black !important;
+    color: black !important;
+    transition: ease-in-out 0.5s !important;
+    
+}
