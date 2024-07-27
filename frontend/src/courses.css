@@ -1,0 +1,112 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:rgba(37, 37, 37, 0.703);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color: gold;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+.categories_grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hover07 .grid_item {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+.hover07 .grid_item img{
+    width:50%;
+}
+
+.hover07 .grid_item figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hover07 .grid_item img {
+    display: block;
+    transition: transform 0.3s;
+}
+
+.hover07 .grid_item:hover img {
+    transform: scale(1.2);
+    /* Scale image on hover */
+}
+
+.hover07 .grid_item h1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: transform 0.3s;
+}
+
+.hover07 .grid_item:hover h1 {
+    transform: translateY(20px);
+    /* Move title down on hover */
+}
+
+@media screen and (max-width: 400px) {
+    .categories_grid {
+            display: block;
+    }
+    .hover07 .grid_item {
+            width:300px
+        }
+}
