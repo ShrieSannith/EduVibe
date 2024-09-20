@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EduVibe/static/css/main.b0b2b389.css",
-    "main.js": "/EduVibe/static/js/main.d88ce88e.js",
+    "main.css": "/EduVibe/static/css/main.685ca13c.css",
+    "main.js": "/EduVibe/static/js/main.3154417c.js",
     "static/js/787.9e9f4ffd.chunk.js": "/EduVibe/static/js/787.9e9f4ffd.chunk.js",
     "static/media/student2.png": "/EduVibe/static/media/student2.2076c4bdc8dd736561c9.png",
     "static/media/mentor.png": "/EduVibe/static/media/mentor.47d8cbeb938f897fe890.png",
@@ -10,18 +10,18 @@
     "static/media/business.jpg": "/EduVibe/static/media/business.0a96fca0c4bc59a70a8e.jpg",
     "static/media/ss.jpg": "/EduVibe/static/media/ss.38909a172d7fc233095b.jpg",
     "static/media/course.png": "/EduVibe/static/media/course.ee93485c4bbcc7a2b87d.png",
-    "static/media/hm.png": "/EduVibe/static/media/hm.bfb01dd2a532503f7ca8.png",
     "static/media/teacher.png": "/EduVibe/static/media/teacher.286d2557bc4516a351b9.png",
     "static/media/google.png": "/EduVibe/static/media/google.d7548f558d339de72821.png",
     "static/media/studentbg.jpg": "/EduVibe/static/media/studentbg.99a25ab7e575ae50691c.jpg",
+    "static/media/hm.png": "/EduVibe/static/media/hm.5dea2279c63661143992.png",
     "static/media/logo.png": "/EduVibe/static/media/logo.73df0ab695dce33760f9.png",
     "index.html": "/EduVibe/index.html",
-    "main.b0b2b389.css.map": "/EduVibe/static/css/main.b0b2b389.css.map",
-    "main.d88ce88e.js.map": "/EduVibe/static/js/main.d88ce88e.js.map",
+    "main.685ca13c.css.map": "/EduVibe/static/css/main.685ca13c.css.map",
+    "main.3154417c.js.map": "/EduVibe/static/js/main.3154417c.js.map",
     "787.9e9f4ffd.chunk.js.map": "/EduVibe/static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b2b389.css",
-    "static/js/main.d88ce88e.js"
+    "static/css/main.685ca13c.css",
+    "static/js/main.3154417c.js"
   ]
 }
