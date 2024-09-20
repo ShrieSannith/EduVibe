@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EduVibe/static/css/main.685ca13c.css",
-    "main.js": "/EduVibe/static/js/main.3154417c.js",
+    "main.js": "/EduVibe/static/js/main.147ff84f.js",
     "static/js/787.9e9f4ffd.chunk.js": "/EduVibe/static/js/787.9e9f4ffd.chunk.js",
     "static/media/student2.png": "/EduVibe/static/media/student2.2076c4bdc8dd736561c9.png",
     "static/media/mentor.png": "/EduVibe/static/media/mentor.47d8cbeb938f897fe890.png",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/EduVibe/static/media/logo.73df0ab695dce33760f9.png",
     "index.html": "/EduVibe/index.html",
     "main.685ca13c.css.map": "/EduVibe/static/css/main.685ca13c.css.map",
-    "main.3154417c.js.map": "/EduVibe/static/js/main.3154417c.js.map",
+    "main.147ff84f.js.map": "/EduVibe/static/js/main.147ff84f.js.map",
     "787.9e9f4ffd.chunk.js.map": "/EduVibe/static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.685ca13c.css",
-    "static/js/main.3154417c.js"
+    "static/js/main.147ff84f.js"
   ]
 }
